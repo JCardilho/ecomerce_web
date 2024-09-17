@@ -8,6 +8,7 @@ const DarkMode = () => {
     );
 
     const element = document.documentElement; //html element
+        
 
     React.useEffect(()=> {
       if (theme === "dark") {
